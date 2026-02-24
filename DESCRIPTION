@@ -1,0 +1,19 @@
+Package: plot2.shiny
+Title: Utilise plot2 interactively using Shiny
+Version: 1.0.0
+Authors@R: c(
+  person(given = c("Matthijs", "S."), 
+         family = "Berends",
+         role = c("aut", "cre"),
+         email = "m.s.berends@umcg.nl"))
+Description: Utilise plot2 interactively using Shiny.
+License: GPL-2
+Depends:
+    R (>= 4.0.0)
+Imports:
+    plot2,
+    shiny,
+    clipr
+Remotes:
+    msberends/plot2
+Encoding: UTF-8
