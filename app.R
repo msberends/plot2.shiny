@@ -1,6 +1,5 @@
 library(shiny)
 library(plot2)
-library(clipr)
 
 tryCatch({
   plot2:::create_interactively(hide_generated_code = TRUE, hide_export_buttons = FALSE, pretty_labels = TRUE)
@@ -10,7 +9,7 @@ tryCatch({
     titlePanel("plot2.shiny - Configuration Error"),
     mainPanel(
       h3("Unable to load the application"),
-      p("There was an error loading the Shiny app from the mmbi.epi package."),
+      p("There was an error loading the Shiny app from the 'plot2.shiny' package."),
       h4("Error message:"),
       pre(as.character(e)),
       hr(),

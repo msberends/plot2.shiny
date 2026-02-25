@@ -11,9 +11,42 @@ License: GPL-2
 Depends:
     R (>= 4.0.0)
 Imports:
-    plot2,
+    broom,
+    cleaner,
+    crayon,
+    dplyr,
+    forcats,
+    ggplot2,
+    showtext,
+    showtextdb,
+    sysfonts,
+    tidyselect,
+    tidyr,
+    bslib,
+    cli,
+    clipr,
+    DT,
+    fansi,
+    ggbeeswarm,
+    ggforce,
+    glue,
+    grDevices,
+    grid,
+    rmarkdown,
+    knitr,
+    lubridate,
+    patchwork,
+    pillar,
+    plotly,
+    rio,
+    rlang,
+    scales,
+    sf,
     shiny,
-    clipr
+    shinyjs,
+    stringr,
+    vctrs,
+    viridisLite
 Remotes:
     msberends/plot2
 Encoding: UTF-8
